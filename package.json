@@ -1,0 +1,24 @@
+{
+  "name": "hash",
+  "version": "1.0.0",
+  "description": "**Hash** is a **Decentralized Identity & Authentication System** that eliminates passwords and enables secure login using blockchain and cryptography.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manjotGG/Hash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manjotGG/Hash/issues"
+  },
+  "homepage": "https://github.com/manjotGG/Hash#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "hardhat": "^2.22.0"
+  }
+}
