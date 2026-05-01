@@ -24,4 +24,6 @@ yarn-error.log*
 
 
 node_modules/
-
+artifacts
+cache
+.env
