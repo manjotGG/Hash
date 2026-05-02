@@ -4,9 +4,9 @@ async function main() {
   const HashID = await hre.ethers.getContractFactory("HashID");
   const contract = await HashID.deploy();
 
-  await contract.deployed();
+  await contract.waitForDeployment();
 
-  console.log("✅ Contract deployed at:", contract.address);
+  console.log("✅ Contract deployed at:", await contract.getAddress());
 }
 
 main().catch((error) => {
